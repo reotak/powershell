@@ -17,7 +17,7 @@ function prompt {
 		$script:lastHistory = $latestHistory
 	}
 
-	return "$pwd >"
+	return "[$(date -Format hh/mm/ss)] $pwd`n > "
 }
 
 ########### alias ################
